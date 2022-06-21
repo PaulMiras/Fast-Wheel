@@ -1,3 +1,3 @@
 # Fast-Wheel
 
-A responsive delivery website made with html and css.
+An responsive landing page made with frontend tech such as html and css.
