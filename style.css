@@ -156,6 +156,7 @@ header {
     font-weight: 600;
     font-size: 2em;
     line-height: 1.5em;
+    white-space: pre;
 }
 
 #about-content {
@@ -310,4 +311,33 @@ header {
     top: -100px;
     left: 0;
     opacity: 0.3;
+}
+
+/* Review */
+
+#review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#review-header {
+    margin: 30px auto 70px;
+    text-align: center;
+}
+
+#review-header h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5em;
+    letter-spacing: 0.15em;
+    color: #FAA2AF;
+}
+
+#review-header h4 {
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.5em;
 }
