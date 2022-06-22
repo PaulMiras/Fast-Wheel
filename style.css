@@ -458,8 +458,8 @@ header {
 }
 
 #review-arrow {
-    font-size: 100px;
-    color: #F0AFB9;
+    font-size: 3em;
+    color: #FF8596;
     position: absolute;
     z-index: 5;
 }
@@ -467,11 +467,9 @@ header {
 .fa-chevron-left,
 .fa-chevron-right {
     position: absolute;
-    top: 170px;
+    top: 70px;
     text-align: center;
-    padding: 20px;
-    height: 100px;
-    width: 100px;
+    padding: 50px;
     background-color: #fff;
     border-radius: 50%;
     cursor: pointer;
