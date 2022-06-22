@@ -461,14 +461,13 @@ header {
     font-size: 100px;
     color: #F0AFB9;
     position: absolute;
-    top: 170px;
     z-index: 5;
 }
 
 .fa-chevron-left,
 .fa-chevron-right {
     position: absolute;
-    top: 430px;
+    top: 170px;
     text-align: center;
     padding: 20px;
     height: 100px;
