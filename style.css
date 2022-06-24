@@ -141,7 +141,7 @@ header {
 
 #about-header {
     margin: 30px auto 70px;
-    text-align: center;
+    
 }
 
 #about-header h3 {
@@ -486,9 +486,10 @@ header {
 /* services */
 
 #services {
-    margin: 15% auto;
+    margin: 15% auto 10%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 #services-header {
@@ -525,4 +526,123 @@ header {
 .service-img1,
 .service-img3 {
     margin-right: 1em;
+}
+
+#services-img {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+/* CTA */
+
+#cta {
+    width: calc(100% - 100px);
+    background-color: #FAF7F3;
+    margin: 0 auto 10%;
+    border-radius: 14px;
+}
+
+#cta-content {
+    display: flex;
+}
+
+#cta-img {
+    max-width: 400px;
+    justify-content: flex-start;
+}
+
+#cta-message {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#cta-message h4 {
+    line-height: 1em;
+    letter-spacing: 7px;
+    font-size: 2.5em;
+}
+
+#cta-message p {
+    font-size: 1.2em;
+    margin: 1.5em 0;  
+    line-height: 1.5em;
+}
+
+#cta-email-input {
+    position: relative;
+}
+
+#email-input {
+    padding: 1em;
+    width: 400px;
+    background: #fff;
+    box-shadow: 0px 5.14286px 25.7143px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 12px;
+}
+
+#email-arrow {
+    position: absolute;
+    right: 36px;
+    top: 14px;
+    font-size: 1.2em;
+    color: #FF8596;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: #F9ACB5;
+    color: #fff;
+}
+
+#footer-img {
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 0 0 5%;
+}
+
+#footer-logo {
+    margin: 10% 0 0 5% ;
+}
+
+#footer-info {
+    display: flex;
+    margin: 15% 0 0 5%;
+    justify-content: space-between;
+}
+
+#footer-address {
+    line-height: 1.5em;
+}
+
+#footer-links,
+#footer-socials {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 50px;
+    width: 120px;
+}
+
+#footer-links a,
+#footer-socials a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#copyright p {
+    margin: 150px 0 0 300px;
 }
