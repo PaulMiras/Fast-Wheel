@@ -141,11 +141,7 @@ header {
 
 #about-header {
     margin: 30px auto 70px;
-<<<<<<< HEAD
     
-=======
-    text-align: center;
->>>>>>> 7c5c107e717abc252c9ab9575244065b2958efc6
 }
 
 #about-header h3 {
@@ -490,16 +486,10 @@ header {
 /* services */
 
 #services {
-<<<<<<< HEAD
     margin: 15% auto 10%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
-=======
-    margin: 15% auto;
-    display: flex;
-    flex-wrap: wrap;
->>>>>>> 7c5c107e717abc252c9ab9575244065b2958efc6
 }
 
 #services-header {
@@ -536,7 +526,6 @@ header {
 .service-img1,
 .service-img3 {
     margin-right: 1em;
-<<<<<<< HEAD
 }
 
 #services-img {
@@ -656,6 +645,4 @@ footer {
 
 #copyright p {
     margin: 150px 0 0 300px;
-=======
->>>>>>> 7c5c107e717abc252c9ab9575244065b2958efc6
 }
