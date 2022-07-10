@@ -512,8 +512,7 @@ header {
 }
 
 #services-images {
-    width: calc(100% - 100px);
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -539,7 +538,7 @@ header {
 /* CTA */
 
 #cta {
-    width: calc(100% - 100px);
+    width: calc(100% - 175px);
     background-color: #FAF7F3;
     margin: 0 auto 10%;
     border-radius: 14px;
